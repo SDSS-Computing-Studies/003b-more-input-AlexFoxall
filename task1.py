@@ -14,3 +14,11 @@ Enter the # of days in the month: 30
 You earned $0.20 interest. 
 (2 points) 
 """
+import math
+
+x = float(input("enter your principle"))
+y = float(input("enter number of days in month"))
+b = float(input("enter intrest as a percent"))
+xyb = x * b * y
+num = xyb / 365
+print(num)
