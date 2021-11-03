@@ -14,3 +14,8 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+import math 
+x = input("enter amount of CAD")
+x = float(x)
+x =  x / 1.25
+print(x)

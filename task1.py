@@ -20,5 +20,5 @@ x = float(input("enter your principle"))
 y = float(input("enter number of days in month"))
 b = float(input("enter intrest as a percent"))
 xyb = x * b * y
-num = xyb / 365
-print(num)
+num = xyb 
+print("you earned $" + num)
