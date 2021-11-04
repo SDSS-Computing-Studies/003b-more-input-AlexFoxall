@@ -24,4 +24,4 @@ xyb = x * b * y
 num = xyb / 365
 num = round(num,1)
 num = str(num)
-print("you earned $" + num + " intrest")
+print("You earned $" + num + " interest.")
