@@ -19,6 +19,9 @@ import math
 x = float(input("enter your principle"))
 y = float(input("enter number of days in month"))
 b = float(input("enter intrest as a percent"))
+b = b / 100
 xyb = x * b * y
-num = xyb 
-print("you earned $" + num)
+num = xyb / 365
+num = round(num , 2)
+num = str(num)
+print("you earned $" + num + " intrest")
