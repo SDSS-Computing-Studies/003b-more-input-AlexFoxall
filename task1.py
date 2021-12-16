@@ -22,6 +22,8 @@ b = float(input("enter intrest as a percent"))
 b = b / 100
 xyb = x * b * y
 num = xyb / 365
-num = round(num,1)
+num = num * 10
+num = round(num)
+num= num / 10
 num = str(num)
 print("You earned $" + num + " interest.")

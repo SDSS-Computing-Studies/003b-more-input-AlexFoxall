@@ -18,4 +18,5 @@ import math
 x = input("enter amount of CAD")
 x = float(x)
 x =  x / 1.25
-print(x)
+x = str(x)
+print("$" + x)
