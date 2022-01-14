@@ -1,5 +1,5 @@
 #!python3
-"""
+"""8
 Assignment: Exchange rate
 The current exchange rate is 1.25 CAD per 1 USD
 Create a program that asks the user for the number of Canadian Dollars they have

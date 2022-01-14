@@ -15,5 +15,13 @@ When our bag was full, we went on a free hay ride to _PLACE_ and back.
 It ended at a hay pile where we got to _VERB_ _ADVERB_. 
 I can hardly wait to get home and cook with the apples. We are going to make apple _FOOD_ and _THINGS_ pies!
 """
-x = input("enter a name")
-q = input
+a = input("enter a name")
+b = input("enter a adjective")
+c = input("enter a food")
+d = input("enter a adjective")
+e = input("enter a noun")
+f = input("enter a place")
+g = input("enter a verb")
+h = input("enter a adverb")
+i = input("enter a food")
+j = input("enter a thing")
