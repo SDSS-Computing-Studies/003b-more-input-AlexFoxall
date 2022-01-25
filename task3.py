@@ -21,6 +21,7 @@ x = input("enter item price")
 b = input("enter item price")
 a = input("enter item price")
 y = input("enter item price")
+
 x = float(x)
 y = float(y)
 a = float(a)
@@ -28,3 +29,7 @@ b = float(b)
 total = x + y + a + b
 tax = total * 0.12 
 xtotal = total + tax
+total = str(total)
+tax = str(tax)
+xtotal = str(xtotal)
+print("Your subtotal is $" + total + " and your taxes total is $" + tax + " for a total of $" + xtotal)
